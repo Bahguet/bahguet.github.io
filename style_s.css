@@ -12,10 +12,6 @@ h1, h2
     font-weight: bold;
 }
 
-.grand 
-{
-    font-size: 160%;
-}
 
 .placeImg 
 {
@@ -24,11 +20,22 @@ h1, h2
 }
 
 a{
-    color: green;
+    color: white;
+    border: 1px black solid;
+    background-color: black;
 }
 
+body {
+    background-color: black;
+    background-image:url(img_normale.png);
+    margin:0;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: contain;
+
+}
 img
 {
-    border: 1px black solid;
+    
     padding: 12px;
 }

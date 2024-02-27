@@ -1,7 +1,6 @@
 .titre
 {
-    background-color:black; 
-    color: white;
+    font-weight: bold;
     
 }
 
@@ -25,17 +24,22 @@ a{
     background-color: black;
 }
 
-body {
-    background-color: black;
-    background-image:url(img_normale.png);
-    margin:0;
+
+
+.background {
+    background-image:url(fond_index.png);
+
+    background-position: center;
     background-attachment:fixed;
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: 70%;
+
+    min-height: 100vh;
 
 }
-img
-{
-    
-    padding: 12px;
-}
+
+body { 
+
+    overflow: hidden ; 
+    background-color: darkslategrey;
+} 
